@@ -2,6 +2,7 @@
 open canopy
 open runner
 open OpenQA.Selenium
+open System.IO
 
 //ConnectWise URL
 let ConnectWiseLink = "https://www.connectwise.com/"
@@ -17,26 +18,34 @@ let BusinessPhone = "#field4"
 let Product = "#field5"
 let Summary = "#field6"
 let IssueDetails = "#field7"
-let fileUploader = "#fileUploader"
+let fileUploaderBtn = "#fileUploader"
 let Submit = "input[type='submit']"
 
+//start test execution
 let sendTicket _ = 
     once (fun _ -> url ConnectWiseLink)
 
+    //access the website and navigate to Support page
     url ConnectWiseLink
     click ResourcesTab
     click GetSupport
+
+    //enter ticket information
     FirstName << "Mikhail"
     LastName << "Rybalchenko"
     Company << "Test Company"
     EmailAddress << "test@test.com"
     BusinessPhone << "555-555-5555"
-
+    //click Product
+    //press Keys.ArrowDown
+    //press Keys.ArrowDown
+    //press Keys.Enter
     click Product
-    press Keys.ArrowDown
-    press Keys.ArrowDown
-    press Keys.Enter
+    click "option[value='LabTech']"
 
-    Summary << "This is Test"
+    Summary << "This is a Test"
     IssueDetails << "No issues"
-    //fileUploader << "‪C:\Users\mryba\Pictures\test.jpg"
+    
+    //upload image to fileuploader
+    let fileToUpload = FileInfo(Path.Combine("C:\Users\mrybalchenko\Desktop","test-img.png"))
+    fileUploaderBtn << fileToUpload.FullName
