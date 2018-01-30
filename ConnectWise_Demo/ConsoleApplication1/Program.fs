@@ -2,7 +2,7 @@
 open runner
 open System
 
-chromeDir <- "C:\Webdriver"
+chromeDir <- "C:\Webdrivers"
 start Chrome
 pin FullScreen
 

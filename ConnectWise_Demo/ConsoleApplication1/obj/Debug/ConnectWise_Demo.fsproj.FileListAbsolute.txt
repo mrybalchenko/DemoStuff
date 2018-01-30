@@ -1,0 +1,14 @@
+C:\GitHub Repo\DemoStuff\ConnectWise_Demo\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\GitHub Repo\DemoStuff\ConnectWise_Demo\ConsoleApplication1\bin\Debug\ConsoleApplication1.XML
+C:\GitHub Repo\DemoStuff\ConnectWise_Demo\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\GitHub Repo\DemoStuff\ConnectWise_Demo\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\GitHub Repo\DemoStuff\ConnectWise_Demo\ConsoleApplication1\bin\Debug\canopy.dll
+C:\GitHub Repo\DemoStuff\ConnectWise_Demo\ConsoleApplication1\bin\Debug\FSharp.Core.dll
+C:\GitHub Repo\DemoStuff\ConnectWise_Demo\ConsoleApplication1\bin\Debug\System.ValueTuple.dll
+C:\GitHub Repo\DemoStuff\ConnectWise_Demo\ConsoleApplication1\bin\Debug\WebDriver.dll
+C:\GitHub Repo\DemoStuff\ConnectWise_Demo\ConsoleApplication1\bin\Debug\canopy.pdb
+C:\GitHub Repo\DemoStuff\ConnectWise_Demo\ConsoleApplication1\bin\Debug\canopy.xml
+C:\GitHub Repo\DemoStuff\ConnectWise_Demo\ConsoleApplication1\bin\Debug\FSharp.Core.xml
+C:\GitHub Repo\DemoStuff\ConnectWise_Demo\ConsoleApplication1\bin\Debug\WebDriver.xml
+C:\GitHub Repo\DemoStuff\ConnectWise_Demo\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\GitHub Repo\DemoStuff\ConnectWise_Demo\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

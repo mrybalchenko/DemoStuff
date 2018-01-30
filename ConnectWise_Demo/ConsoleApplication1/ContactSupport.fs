@@ -4,7 +4,7 @@ open runner
 open OpenQA.Selenium
 
 //ConnectWise URL
-let ConnectWise = "https://www.connectwise.com/"
+let ConnectWiseLink = "https://www.connectwise.com/"
 
 //selectors
 let ResourcesTab = "li[data-node='86625e09-631a-4e54-8a53-560b8e98269a']"
@@ -21,9 +21,9 @@ let fileUploader = "#fileUploader"
 let Submit = "input[type='submit']"
 
 let sendTicket _ = 
-    once (fun _ -> url ConnectWise)
+    once (fun _ -> url ConnectWiseLink)
 
-    url ConnectWise
+    url ConnectWiseLink
     click ResourcesTab
     click GetSupport
     FirstName << "Mikhail"
@@ -31,7 +31,12 @@ let sendTicket _ =
     Company << "Test Company"
     EmailAddress << "test@test.com"
     BusinessPhone << "555-555-5555"
-    Product << "ConnectWise Automate"
+
+    click Product
+    press Keys.ArrowDown
+    press Keys.ArrowDown
+    press Keys.Enter
+
     Summary << "This is Test"
     IssueDetails << "No issues"
-    fileUploader << "‪C:\Users\mryba\Pictures\test.jpg"
+    //fileUploader << "‪C:\Users\mryba\Pictures\test.jpg"
